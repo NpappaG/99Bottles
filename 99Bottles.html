@@ -2,19 +2,19 @@
     <head>
     </head>
     <body>
-      <h2 >99 Bottles of Beer</h2>
+      <h2 >99 Bottles of Beer Song Lyrics</h2>
     <script> 
-    for (let num = 99; num > 1; num--) {
-    if (num > 1) {
-      console.log(num + 'bottles of beer on the wall, '+ num + 'bottles of beer. Take one down, pass it around, '+ num-1 + 'bottles of beer on the wall.');
-    }  
-    else if (num = 1) {
-      console.log(num + 'bottle of beer on the wall, '+ num + 'bottle of beer. Take one down, pass it around, 1 bottle of beer on the wall.');
-    } 
-    else {
-        console.log('error');
-    }   
-    }
+for (let num = 99; num !== 0; num--) {
+        if (num > 1) {
+          console.log(num + ' bottles of beer on the wall, '+ num + ' bottles of beer. Take one down, pass it around, '+ (num-1)+' bottles of beer on the wall.');
+        }  
+        else if (num === 1) {
+          console.log('1 bottle of beer on the wall, 1 bottle of beer. Take one down, pass it around, 1 bottle of beer on the wall');
+        } 
+        else {
+          console.log('error');
+        }
+      }
     </script>
     </body>
 </html>
